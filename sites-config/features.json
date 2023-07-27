@@ -1,0 +1,46 @@
+{
+  "features": [
+    {
+      "name": "doctor",
+      "streamId": "healthcareProfessionals",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    }
+  ],
+  "streams": [
+    {
+      "$id": "healthcareProfessionals",
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      },
+      "fields": [
+        "name",
+        "slug",
+        "npi",
+        "description",
+        "headshot",
+        "healthcare_specialty",
+        "healthcare_locationsPracticingAt.address",
+        "healthcare_locationsPracticingAt.geocodedCoordinate",
+        "insuranceAccepted",
+        "educationList",
+        "certifications",
+        "healthcare_practiceNames",
+        "languages",
+        "gender",
+        "healthcare_fAQs.question",
+        "healthcare_fAQs.answer"
+      ],
+      "filter": {
+        "entityTypes": [
+          "healthcareProfessional"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PTSerif-Bold";
+  src: url(./assets/fonts/PTSerif-Bold.ttf);
+}
+
+@font-face {
+  font-family: "PTSerif-Regular";
+  src: url(./assets/fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url(./assets/fonts/PTSerif-Bold.ttf);
+}
+
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url(./assets/fonts/PTSerif-Regular.ttf);
+}
